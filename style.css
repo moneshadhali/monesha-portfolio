@@ -316,6 +316,15 @@ article.icon{
     cursor: default;
 }
 
+/* PROJECTS*/
+#projects{
+    position: relative;
+}
+
+/* CONTACT*/
+#contact{
+    position: relative;
+}
 
 @media (max-width: 550px) {
     .toggle-button{
