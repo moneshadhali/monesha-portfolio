@@ -362,6 +362,10 @@ article.icon{
     border-color: rgb(163, 163, 163);
 }
 
+#projects .about-containers{
+    flex-wrap: wrap;
+}
+
 
 /* CONTACT*/
 #contact{
