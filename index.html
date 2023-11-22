@@ -1,241 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Monesha Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="logo">Monesha Dhali</div>
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monesha Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Monesha Dhali</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assets/profile1.jpg" alt="Monesha Dhali profile picture" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Monesha Dhali</h1>
+        <p class="section_text_p2">An aspiring Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/MoneshaDhali.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My linkedin profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/moneshadhali/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My github profile"
+            class="icon"
+            onclick="location.href='https://github.com/moneshadhali'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assets/profile2.jpg"
+            alt="My profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience Icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Frontend Development</p>
             </div>
-        </nav>
-        <section id="profile">
-            <div class="section_pic-container">
-                <img src="./assets/profile1.jpg" alt="Monesha Dhali profile picture">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education Icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BEng Software Engineer (1st class honours)</p>
             </div>
-            <div class="section_text">
-                <p class="section_text_p1">Hello, I'm</p>
-                <h1 class="title">Monesha Dhali</h1>
-                <p class="section_text_p2">An aspiring Software Engineer</p>
-                <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="window.open('./assets/MoneshaDhali.pdf')">Download CV</button>
-                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+          </div>
+          <div class="text-container">
+            <p>
+              As a dedicated graduate in Software Engineering, I am passionate
+              about establishing a career in the ever-evolving technology
+              industry. My pursuit of excellence drives me to consistently
+              achieve optimal results in projects, leveraging my adaptability,
+              strong organizational experience, and exceptional abilities honed
+              through a background in customer service. Actively seeking
+              opportunities to enhance my technological proficiency, my academic
+              journey at the University of Westminster has equipped me with
+              hands-on experience and expertise in various programming
+              languages, including Python, HTML, CSS, JavaScript, and Java. I am
+              confident in my ability to quickly and efficiently undertake new
+              tasks, making me a dependable asset with my unwavering commitment
+              and organizational acumen in any team or project.
+            </p>
+            <br />
+            <p>
+              My journey in the world of technology has just begun, and I am
+              excited to learn and grow with each new project.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-subtitle">Frontend & Backend Developments</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
                 </div>
-                <div id="socials-container">
-                    <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://linkedin.com/in/moneshadhali/'">
-                    <img src="./assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/moneshadhali'">
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
                 </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UI/UX Design</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL & Database</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git & Github</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
             </div>
-        </section>
-        <section id="about">
-            <p class="section_text_p1">Get To Know More</p>
-            <h1 class="title">About Me</h1>
-            <div class="section-container">
-                <div class="section_pic-container">
-                    <img src="./assets/profile2.jpg" alt="My profile picture" class="about-pic">
+          </div>
+          <div class="details-container">
+            <h2 class="experience-subtitle">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic (solid foundation)</p>
                 </div>
-                <div class="about-details-container">
-                    <div class="about-containers">
-                        <div class="details-container">
-                            <img src="./assets/experience.png" alt="Experience Icon" class="icon">
-                            <h3>Experience</h3>
-                            <p>3+ years <br />Frontend Development</p>
-                        </div>
-                        <div class="details-container">
-                            <img src="./assets/education.png" alt="Education Icon" class="icon">
-                            <h3>Education</h3>
-                            <p>BEng Software Engineer (1st class honours)</p>
-                        </div>
-                    </div>
-                    <div class="text-container">
-                        <p>As a dedicated graduate in Software Engineering, I am passionate about establishing a career in the ever-evolving technology industry. My pursuit of excellence drives me to consistently achieve optimal results in projects, leveraging my adaptability, strong organizational experience, and exceptional abilities honed through a background in customer service. Actively seeking opportunities to enhance my technological proficiency, my academic journey at the University of Westminster has equipped me with hands-on experience and expertise in various programming languages, including Python, HTML, CSS, JavaScript, and Java. I am confident in my ability to quickly and efficiently undertake new tasks, making me a dependable asset with my unwavering commitment and organizational acumen in any team or project.</p>
-                        <br/>
-                        <p>My journey in the world of technology has just begun, and I am excited to learn and grow with each new project.</p>      
-                    </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Basic</p>
                 </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic Foundation</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MATLAB</h3>
+                  <p>Basic Foundation</p>
+                </div>
+              </article>
             </div>
-            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
-        </section>
-        <section id="experience">
-            <p class="section_text_p1">Explore My</p>
-            <h1 class="title">Experience</h1>
-            <div class="experience-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <h2 class="experience-subtitle">Frontend & Backend Developments</h2>
-                        <div class="article-container">
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>HTML</h3>
-                                    <p>Experienced</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>CSS</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>JavaScript</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>UI/UX Design</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>SQL & Database</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>Git & Github</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="details-container">
-                        <h2 class="experience-subtitle">Programming Languages</h2>
-                        <div class="article-container">
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>Java</h3>
-                                    <p>Basic (solid foundation)</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>Javascript</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>Python</h3>
-                                    <p>Basic Foundation</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                                <div>
-                                    <h3>MATLAB</h3>
-                                    <p>Basic Foundation</p>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project1InvestNext.png"
+                alt="Project 1 - InvestNext"
+                class="project-img"
+              />
             </div>
-            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
-        </section>
-        <section id="projects">
-            <p class="section_text_p1">Browse My Recent</p>
-            <h1 class="title">Projects</h1>
-            <div class="experience-details-container">
-                <div class="about-containers">
-                  <div class="details-container color-container">
-                    <div class="article-container">
-                      <img src="./assets/project1InvestNext.png" alt="Project 1 - InvestNext" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-                    <div class="btn-container">
-                      <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/fausteire/AthenaHackathon'">Github</button>
-                      <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/shorts/_XH1BcqY2J4'">Live Demo</button>
-                      <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1gE_pMWArKF6F7ByQHtibqAh72RnxM-e7fpQR6Knn7II/edit?usp=sharing'">PowerPoint</button>
-                    </div>
-                  </div>
-                  <div class="details-container color-container">
-                    <div class="article-container">
-                      <img src="./assets/prj4-fyp.PNG" alt="Project 2" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=OdGmvXxO0UQ'">Live Demo</button>
-                      </div>
-                  </div>
-                  <div class="details-container color-container">
-                    <div class="article-container">
-                      <img src="./assets/Proj3SWeatherApp.PNG" alt="Project 3" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/moneshadhali/Basic-Weather-App.git'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://moneshadhali.github.io/Basic-Weather-App/'">Live Demo</button>
-                      </div>
-                  </div> 
-                  <div class="details-container color-container">
-                    <div class="article-container">
-                      <img src="./assets/project2.PNG" alt="Project 4" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Four</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NeonNingen/GroupE_CW_Project.git'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/18htomUVdc-PWRl8EJVt54N_FTd_F_ie-/view?usp=sharing'">Live Demo</button>
-                    </div>
-                  </div>             
-                </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/fausteire/AthenaHackathon'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/shorts/_XH1BcqY2J4'"
+              >
+                Live Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://docs.google.com/presentation/d/1gE_pMWArKF6F7ByQHtibqAh72RnxM-e7fpQR6Knn7II/edit?usp=sharing'"
+              >
+                PowerPoint
+              </button>
             </div>
-            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
-        </section>
-        <section id="contact">
-            <p class="section_text_p1">Get in Touch</p>
-            <h1 class="title">Contact</h1>
-            <div class="contact-info-upper-container">
-                <div class="contact-info-container">
-                    <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
-                    <p><a href="mailto:dhalimonesha@gmail.com">dhalimonesha@gmail.com</a></p>
-                </div>
-                <div class="contact-info-container">
-                    <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
-                    <p><a href="https://www.linkedin.com/in/moneshadhali/">Linkedin</a></p>
-                </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/prj4-fyp.PNG"
+                alt="Project 2"
+                class="project-img"
+              />
             </div>
-
-        </section>
-        <footer>
-            <nav>
-                <div class="nav-links-container">
-                    <ul class="nav-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <p>Copyright &#169; 2023 Monesha Dhali. All rights reserved. </p>
-        </footer>
-        <script src="script.js"></script>
-    </body>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=OdGmvXxO0UQ'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Proj3SWeatherApp.PNG"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/moneshadhali/Basic-Weather-App.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://moneshadhali.github.io/Basic-Weather-App/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project2.PNG"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Four</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/NeonNingen/GroupE_CW_Project.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/18htomUVdc-PWRl8EJVt54N_FTd_F_ie-/view?usp=sharing'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:dhalimonesha@gmail.com">dhalimonesha@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedin icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/moneshadhali/">Linkedin</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Monesha Dhali. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
